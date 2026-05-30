@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-30T17:40:57 IST" name="Suite" finished-at="2026-05-30T17:41:07 IST" duration-ms="10401">
+    <groups>
+    </groups>
+    <test started-at="2026-05-30T17:40:57 IST" name="Test1" finished-at="2026-05-30T17:41:07 IST" duration-ms="10401">
+      <class name="testDemoOne.LoginTest">
+        <test-method is-config="true" signature="steUp()[pri:0, instance:testDemoOne.LoginTest@22ff4249]" started-at="2026-05-30T17:40:57 IST" name="steUp" finished-at="2026-05-30T17:41:00 IST" duration-ms="2406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steUp -->
+        <test-method signature="logintest()[pri:0, instance:testDemoOne.LoginTest@22ff4249]" started-at="2026-05-30T17:41:00 IST" name="logintest" finished-at="2026-05-30T17:41:02 IST" duration-ms="2567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method signature="verifyCartFunctinality()[pri:0, instance:testDemoOne.LoginTest@22ff4249]" started-at="2026-05-30T17:41:02 IST" name="verifyCartFunctinality" finished-at="2026-05-30T17:41:06 IST" depends-on-methods="testDemoOne.LoginTest.logintest" duration-ms="4332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartFunctinality -->
+        <test-method signature="verifyLogin()[pri:0, instance:testDemoOne.LoginTest@22ff4249]" started-at="2026-05-30T17:41:06 IST" name="verifyLogin" finished-at="2026-05-30T17:41:07 IST" depends-on-methods="testDemoOne.LoginTest.logintest" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testDemoOne.LoginTest@22ff4249]" started-at="2026-05-30T17:41:07 IST" name="tearDown" finished-at="2026-05-30T17:41:07 IST" duration-ms="980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testDemoOne.LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
